@@ -9,6 +9,7 @@ $(function() {
   });
 });
 
+You also need to copy & paste your installation code to lib/options.js file. The installation code can be found in your "Install Search" menu inside app.swiftype.com. The URL is something like https://app.swiftype.com/engines/YourSisteSearfchEngine/install_flow/start.
 
 [![CircleCI](https://img.shields.io/circleci/project/github/contentful/the-example-app.nodejs.svg)](https://circleci.com/gh/contentful/the-example-app.nodejs)
 
