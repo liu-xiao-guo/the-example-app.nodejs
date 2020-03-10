@@ -21,7 +21,19 @@ html(lang='en')
     link(rel='manifest' href='/manifest.json')
     link(rel='mask-icon' href='/safari-pinned-tab.svg' color='#4a90e2')
     meta(name='theme-color' content='#ffffff')
+
+    script
+       include ../lib/jquery.min.js
+       include ../lib/jquery.swiftype.search.js
+       include ../lib/site_search.js
   body
+    form
+      input(type="text" placeholder="Search")#st-search-input
+    div#st-results-container
+
+    // script
+    //  include ../lib/options.js
+      
     main.main(role='main')
       .main__header
         header.header(role='banner')

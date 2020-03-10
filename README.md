@@ -1,5 +1,15 @@
 ## The node.js example app
 
+This example has been customized for Elastic site search demo. In order to make use of if, you need to supply the correct "enginekey", which is needed in "site_search.js" file under "lib" directory:
+
+$(function() {
+  $('#st-search-input').swiftypeSearch({
+    resultContainingElement: '#st-results-container',
+    engineKey: 'YourEngineKey'
+  });
+});
+
+
 [![CircleCI](https://img.shields.io/circleci/project/github/contentful/the-example-app.nodejs.svg)](https://circleci.com/gh/contentful/the-example-app.nodejs)
 
 The node.js example app teaches the very basics of how to work with Contentful:
